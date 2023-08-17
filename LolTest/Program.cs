@@ -75,4 +75,7 @@ async void CheckIfLose(object source, ElapsedEventArgs e)
         File.WriteAllText(logFile, ee.Message);
     }
 }
-Console.ReadKey();
+while (true)
+{
+    Console.ReadKey();
+}
